@@ -22,6 +22,10 @@ resource/layout/friendpanel.layout {
 
 		MobileStatusStyleInGame
 			{ image="graphics/friends/status_mobile_ingame" }
+
+		CFriendPanel:selected {	
+			render_bg {	0="fill( x0 - 99, y0, x1, y1, A2Ribbon )"}
+		}
 	}
 
 	layout {
