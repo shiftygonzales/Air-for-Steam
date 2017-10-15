@@ -76,11 +76,11 @@ layout.styles {
       minimum-height=250
       bgcolor=A2Background
       render_bg {
-        0="fill( x0, y0, x1, y0 + 80, Focus )"
+        0="fill( x0, y0, x1, y0 + 50, Focus )"
         1="fill( x0, y0 + 50, x1, y0 + 110, Focus3 )"
       }
       render {
-        0="image_scale( x0, y0 + 80, x1, y0 + 116, graphics/material/shadow_horiz )"
+        0="image_scale( x0, y0 + 50, x1, y0 + 116, graphics/material/shadow_horiz )"
       }
     }
 
