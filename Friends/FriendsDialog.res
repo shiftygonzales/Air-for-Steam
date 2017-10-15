@@ -43,7 +43,7 @@ Friends/FriendsDialog.res {
 		region { name=body y=115 height=max width=max }
 		region { name=box height=max width=max region=body margin-left=16 margin-right=16 }
 			place { control=FriendsDialogSheet region=body y=2 width=max height=max }
-			place { control=DownLabel region=box y=56 width=max }
+			place { control=DownLabel region=box y=25 width=max }
 			place { control=NoFriendsAddFriendButton region=box start=DownLabel dir=down y=10 }
 
 		place { control=frame_maximize,friends_search_icon,addFriendsButton height=0 width=0 margin-left=-9999 }
