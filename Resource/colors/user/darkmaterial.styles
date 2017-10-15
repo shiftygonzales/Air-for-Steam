@@ -1,0 +1,87 @@
+resource/colors/darkmaterial.styles {
+
+  colors {
+    DM1="41 53 59 255" // Lighter blue-gray
+    DM1Contrast="150 162 184 255" // Lighter gray
+
+    DM2="36 48 53 255" // Medium blue-gray
+    DM2Contrast="166 176 180 255" // Lighter gray
+
+    DM3="38 50 56 255" // Medium blue-gray 2
+    DM3Contrast="129 140 145 255" // Lighter gray
+
+    DM4="40 52 58 255" // Medium blue-gray 3 (menus)
+
+    DM5="34 45 50 255" // Darker blue-gray (window header)
+    DM5Contrast="184 194 198 255" // Lighter gray
+
+    DM6="27 35 38 255" // Dark blue-gray
+    
+    DMText="200 200 200 200" // Medium gray
+    DMTextActive="255 255 255 255" // White
+    DMTextInactive="150 150 150 200" // Medium gray
+
+    DMHover="120 120 120 200" // Medium gray
+    DMHover2="80 80 80 200" // Medium gray
+
+    DMSelect="95 215 255 255" // Light blue
+    DMSelect2="78 229 249 255" // Lighter blue
+    DMSelect3="132 210 136 255" // Light green
+
+    DMDivider="36 47 52 255" // Dark blue-gray
+
+    Focus="DM5"
+    Focus2="DMHover"
+    Focus3="DM6"
+    Focus4="DM1"
+
+    A2TextFocus="DMSelect2"
+    A2TextFocusHover="DMTextActive"
+
+
+    //THEME OVERRIDES
+    A2Background  "DM2"  //client bg
+    A2Ribbon  "DM5"  //bg for section emphasis (ie. left side of settings dialog)
+    A2Divider  "DMDivider"  //client dividers
+    A2Snackbar  "DM5"  //bg for download notification
+    A2Notification  "DM5"  //bg for steam popup notifications
+    A2Bar  "DM5"  //bg for greater section emphasis (ie. voice chat and trade notifications)
+    A2Menu  "DM4"  //menu bg
+    A2MenuDivider  "DMDivider"  //menu dividers
+
+    A2ButtonHover  "DM4Contrast"  //button bg on hover
+    A2ButtonActive  "DM4Contrast"  //button bg on click
+    A2DetailsButton  "DM2"  //details install/play button
+    A2DetailsButtonHover  "DM1"  //details install/play button hover
+
+    A2ScrollGutter  "DM5"  //scrollbar gutter/backdrop
+
+    A2TextPrimary  "DMTextActive"  //white 87%, text
+    A2TextSecondary  "DMText"  //white 54%, caption
+    A2TextLabel  "DMTextInactive"  //white 39%, label
+    A2TextHint  "DMTextInactive"  //white 26%, hint text, disabled items
+    A2TextBlack  "DMText"  //black text
+    A2TextBlackHover  "DMTextActive"  //hover
+    A2TextWhite  "DMText"  //white text
+    A2TextWhiteHover  "DMTextActive"  //hover
+
+    A2TextOnFocus  "DMText"  //text color on focus color (header)
+    A2TextOnFocusHover  "DMTextActive"  //hover
+    A2TextNotification  "DMText"  //text color of a notification
+    A2TextNotificationSoft  "DMText"  //softer text color on notification (also used for hover)
+    A2TextSelected  "DMTextActive"  //selected text color (usually on focus2)
+
+    A2TextOverlay  "DMTextActive"  //overlay text color
+    A2TextOverlaySoft  "DMSelect"  //softer overlay text color (also used for hover)
+    A2TextOverlayLabel  "DMTextActive"  //overlay label text color
+    A2TextOverlayLabelHover  "DMSelect"  //hover
+
+    A2FriendsOnline  "DMSelect"  //friend online text
+    A2FriendsInGame  "DMSelect3"  //friend in-game text
+    A2FriendsOffline  "DMText"  //friend offline text
+
+    A2ChatFriend  "DMTextActive"  //chat window friend text
+    A2ChatSelf  "DMText"  //chat window self text
+    A2ChatHistory  "A2TextLabel"  //chat window history text
+  }
+}
