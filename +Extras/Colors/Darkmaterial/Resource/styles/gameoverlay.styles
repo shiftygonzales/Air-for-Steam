@@ -1,0 +1,37 @@
+gameoverlay.styles {
+
+	include "resource/styles/steam.styles"
+
+	colors {
+		Notifications.PanelPosition "BottomRight"
+	}
+
+	styles {
+		"ToolWindow FrameMinimizeButton" {
+			render_bg { }
+			//remove minimize button from chat window
+		}
+
+		friends_chat_text {
+			textcolor=A2ChatFriend
+			//!! needs to be added here to due to bug with color not updating in overlay
+		}
+
+		//notification overrides
+		//rgb50 = 50 in overlay
+		//rgb51 = 50 in desktop
+		BroadcastApproveNotification { render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationOverlay )" } }
+		BroadcastInviteNotification { render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationOverlay )" } }
+		BroadcastViewerNotification { render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationOverlay )" } }
+		CChatInvitationNotification { render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationOverlay )" } }
+		CChatMsgNotification { render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationOverlay )" } }
+		CClanEventNotification { render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationOverlay )" } }
+		CClanInvitationNotification { render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationOverlay )" } }
+		CFriendInGameNotification { render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationOverlay )" } }
+		CFriendInvitationNotification { render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationOverlay )" } }
+		CFriendOnlineNotification { render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationOverlay )" } }
+		CGameInvitationNotification { render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationOverlay )" } }
+		TradInvitationNotification { render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationOverlay )" } }
+		CVoiceChatInviteNotification { render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationOverlay )" } }
+	}
+}

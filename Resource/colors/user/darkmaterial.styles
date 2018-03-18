@@ -28,7 +28,12 @@ resource/colors/darkmaterial.styles {
     DMSelect2="78 229 249 255" // Lighter blue
     DMSelect3="132 210 136 255" // Light green
 
+    DMInvite="52 164 201 255" // Muted blue
+
     DMDivider="36 47 52 255" // Dark blue-gray
+
+    DMOverlayBackground="0 0 0 50"
+    DMOverlayBar="34 45 50 125"
 
     Focus="DM5"
     Focus2="DMHover"
@@ -54,6 +59,8 @@ resource/colors/darkmaterial.styles {
     A2DetailsButton  "DM2"  //details install/play button
     A2DetailsButtonHover  "DM1"  //details install/play button hover
 
+    A2Scroll  "DM1"  //scrollbar handle
+    A2ScrollHover  "DM6"  //scrollbar handle on hover
     A2ScrollGutter  "DM5"  //scrollbar gutter/backdrop
 
     A2TextPrimary  "DMTextActive"  //white 87%, text
@@ -83,5 +90,8 @@ resource/colors/darkmaterial.styles {
     A2ChatFriend  "DMTextActive"  //chat window friend text
     A2ChatSelf  "DMText"  //chat window self text
     A2ChatHistory  "A2TextLabel"  //chat window history text
+
+    A2OverlayBackground  "DMOverlayBackground"
+    A2OverlayBar  "DMOverlayBar"
   }
 }
