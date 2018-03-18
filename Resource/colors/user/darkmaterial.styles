@@ -28,6 +28,8 @@ resource/colors/darkmaterial.styles {
     DMSelect2="78 229 249 255" // Lighter blue
     DMSelect3="132 210 136 255" // Light green
 
+    DMInvite="52 164 201 255" // Muted blue
+
     DMDivider="36 47 52 255" // Dark blue-gray
 
     DMOverlayBackground="0 0 0 50"
