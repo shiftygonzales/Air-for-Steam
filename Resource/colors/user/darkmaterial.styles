@@ -59,6 +59,8 @@ resource/colors/darkmaterial.styles {
     A2DetailsButton  "DM2"  //details install/play button
     A2DetailsButtonHover  "DM1"  //details install/play button hover
 
+    A2Scroll  "DM1"  //scrollbar handle
+    A2ScrollHover  "DM6"  //scrollbar handle on hover
     A2ScrollGutter  "DM5"  //scrollbar gutter/backdrop
 
     A2TextPrimary  "DMTextActive"  //white 87%, text
